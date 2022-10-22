@@ -172,5 +172,41 @@ export const Tools = [
         url: "https://ui-buttons.web.app/",
         description: "Buttons HTML-CSS",
         img: "./img/UIButtons.png"
+    },
+    {
+        site: "CodeWars",
+        url: "https://www.codewars.com/dashboard",
+        description: "Entrainement language dev",
+        img: "./img/codewars.png"
+    },
+    {
+        site: "CodeinGame",
+        url: "https://www.codingame.com/home",
+        description: "Entrainement language dev",
+        img: "./img/codeingame.png"
+    },
+    {
+        site: "FlowCV",
+        url: "https://app.flowcv.com/",
+        description: "Créer CV",
+        img: "./img/flowcv.png"
+    },
+    {
+        site: "Daily Dev",
+        url: "https://app.daily.dev/",
+        description: "veille technologique dev",
+        img: "./img/dailydev.png"
+    },
+    {
+        site: "Polychroma",
+        url: "https://polychroma.app/",
+        description: "Gradiant color",
+        img: "./img/polychroma.png"
+    },
+    {
+        site: "Comparium",
+        url: "https://front.comparium.app/",
+        description: "Test URL front-End",
+        img: "./img/comparium.png"
     }
 ]
