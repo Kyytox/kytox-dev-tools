@@ -9,7 +9,7 @@ export const Tools = [
         site: "Icons 8",
         url: "https://icones8.fr/",
         description: "Icônes / illustrations pour site",
-        img: "./public/img/icones8.png"
+        img: "./img/icones8.png"
     },
     {
         site: "Flaticon",
