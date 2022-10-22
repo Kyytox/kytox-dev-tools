@@ -13,7 +13,7 @@
 
 .box {
   position: relative;
-  background: rgb(100, 0, 0);
+  /* background: rgb(100, 0, 0); */
   width: 17%;
   margin: 10px;
   height: 150px;

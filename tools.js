@@ -3,7 +3,7 @@ export const Tools = [
         site: "Font Awesome",
         url: "https://fontawesome.com/",
         description: "Icônes pour site",
-        img1: "./img/fontAwesome.png"
+        img: "./img/fontaw.png"
     },
     {
         site: "Icons 8",
