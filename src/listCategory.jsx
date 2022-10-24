@@ -5,6 +5,7 @@ function ListCategory(props) {
 
     // console.log(Tools)
     const arr = []
+    arr.push('ALL')
 
     // add category in arr
     for (let x of Tools) {
@@ -12,15 +13,18 @@ function ListCategory(props) {
     }
 
     // remove doublon 
-    var listCategory = [...new Set(arr)]
+    var listCategory = [...new Set(arr)].sort()
 
-    console.log(listCategory);
+    let categoryChange = (e) => {
+        //convert input text to lower case
+        var category = e.target.value
+        props.setSelectCateg(category);
+        props.setInputText("")
+    };
 
     return (
         listCategory.map((item) =>
-            <div className='list-category'>
-                <p>{item}</p>
-            </div>
+            <button value={item} onClick={categoryChange}>{item}</button>
         )
     )
 }

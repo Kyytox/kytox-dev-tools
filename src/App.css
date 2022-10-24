@@ -3,6 +3,110 @@
 }
 
 
+/* width */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: grey;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: white;
+} */
+
+
+/* LIST CATEGORY */
+.list-category {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 0;
+  padding-top: 1%;
+}
+
+.list-category button {
+  padding: 18px;
+  border: 0;
+  cursor: pointer;
+  background: none;
+  width: 100%;
+}
+
+.list-category button:hover {
+  background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+}
+
+
+
+/* SEARCH */
+.search {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/* div input search */
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  width: 80%;
+  text-align: center;
+}
+
+.search input {
+  /* background-color: grey; */
+  background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );
+  width: 100%;
+  color: white;
+  height: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+
+
+
+/* LIST TOOLS */
 .list-tools {
   display: flex;
   flex-direction: row;
@@ -56,10 +160,9 @@
   opacity: 1;
 }
 
-.overlay p{
+.overlay p {
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
   color: white;
 }
-
