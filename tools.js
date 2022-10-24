@@ -243,5 +243,19 @@ export const Tools = [
         description: "Test URL front-End",
         img: "./img/comparium.png",
         category: "Design"
+    },
+    {
+        site: "Material UI",
+        url: "https://mui.com/",
+        description: "React UI tools",
+        img: "./img/MUI.png",
+        category: "React JS"
+    },
+    {
+        site: "Farmer Motion",
+        url: "https://www.framer.com/motion/",
+        description: "React lib ",
+        img: "./img/farmer-motion.png",
+        category: "React JS"
     }
 ]
