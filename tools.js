@@ -3,210 +3,245 @@ export const Tools = [
         site: "Font Awesome",
         url: "https://fontawesome.com/",
         description: "Icônes pour site",
-        img: "./img/fontaw.png"
+        img: "./img/fontaw.png",
+        category: "Fonts"
     },
     {
         site: "Icons 8",
         url: "https://icones8.fr/",
         description: "Icônes / illustrations pour site",
-        img: "./img/icones8.png"
+        img: "./img/icones8.png",
+        category: "Icones"
     },
     {
         site: "Flaticon",
         url: "https://www.flaticon.com/",
         description: "Icônes / stickers pour site",
-        img: "./img/flaticon.png"
+        img: "./img/flaticon.png",
+        category: "Icones"
     },
     {
         site: "CodePen",
         url: "https://codepen.io/",
         description: "IDE Online",
-        img: "./img/codepen.png"
+        img: "./img/codepen.png",
+        category: "IDE"
     },
     {
         site: "Collabotary",
         url: "https://colab.research.google.com/",
         description: "IDE Python Online",
-        img: "./img/collaboratory.png"
+        img: "./img/collaboratory.png",
+        category: "IDE"
     },
     {
         site: "Fonts Squirrel",
         url: "https://www.fontsquirrel.com/",
         description: "Fonts - Police caractères",
-        img: "./img/fontSquirrel.png"
+        img: "./img/fontSquirrel.png",
+        category: "Fonts"
     },
     {
         site: "1001 Fonts",
         url: "https://www.1001fonts.com/",
         description: "Fonts - Police caractères",
-        img: "./img/1001Fonts.png"
+        img: "./img/1001Fonts.png",
+        category: "Fonts"
     },
     {
         site: "Looka",
         url: "https://looka.com/",
         description: "Création de Logo",
-        img: "./img/looka.png"
+        img: "./img/looka.png",
+        category: "Logo"
     },
     {
         site: "Grid Cheat Sheet",
         url: "https://alialaa.github.io/css-grid-cheat-sheet/",
         description: "Guide visuel de grille CSS",
-        img: "./img/cssGridCheatSheets.png"
+        img: "./img/cssGridCheatSheets.png",
+        category: "Cheat Sheet"
     },
     {
         site: "AOS",
         url: "https://michalsnik.github.io/aos/",
         description: "Animate On Scroll Library",
-        img: "./img/aos.png"
+        img: "./img/aos.png",
+        category: "JS Animation"
     },
     {
         site: "Autoprefixer CSS",
         url: "https://autoprefixer.github.io/",
         description: "Ajoute des préfixe a ton CSS pour les différents navigateurs",
-        img: "./img/autoprefixer.png"
+        img: "./img/autoprefixer.png",
+        category: "CSS"
     },
     {
         site: "CSS Accordion Slider Generator",
         url: "https://accordionslider.com/",
         description: "Créez des curseurs d'accordéon Responsive",
-        img: "./img/cssAccordionSlider.png"
+        img: "./img/cssAccordionSlider.png",
+        category: "CSS"
     },
     {
         site: "CSS Loaders",
         url: "https://cssloaders.github.io/",
         description: "CSS Loaders",
-        img: "./img/cssLoader.png"
+        img: "./img/cssLoader.png",
+        category: "CSS"
     },
     {
         site: "KeyFrames",
         url: "https://keyframes.app/",
         description: "CSS Animations - Colors - Shadows - Caractère Code",
-        img: "./img/keyFrames.png"
+        img: "./img/keyFrames.png",
+        category: "CSS"
     },
     {
         site: "Unsplash",
         url: "https://unsplash.com/",
         description: "Source d'images librement utilisables",
-        img: "./img/unsplash.png"
+        img: "./img/unsplash.png",
+        category: "Images"
     },
     {
         site: "Coolors",
         url: "https://coolors.co/",
         description: "Color palette Geneartor",
-        img: "./img/coolors.png"
+        img: "./img/coolors.png",
+        category: "CSS"
     },
     {
         site: "CSS Gradient",
         url: "https://cssgradient.io/",
         description: "Gradient CSS",
-        img: "./img/cssGradiant.png"
+        img: "./img/cssGradiant.png",
+        category: "CSS"
     },
     {
         site: "10015",
         url: "https://10015.io/",
         description: "Tools Text - Image - CSS - Coding - Colrs - Social Media - Miscellaneous",
-        img: "./img/10015.png"
+        img: "./img/10015.png",
+        category: "All in One"
     },
     {
         site: "DevTooly",
         url: "https://devtooly.com/",
         description: "Frontend Developer tools",
-        img: "./img/devTooly.png"
+        img: "./img/devTooly.png",
+        category: "All in One"
     },
     {
         site: "OverAPI Developer-Tools",
         url: "https://overapi.com/developer-tools",
         description: "CSS - JS - Design",
-        img: "./img/overAPI.png"
+        img: "./img/overAPI.png",
+        category: "API"
     },
     {
         site: "ChartJS",
         url: "https://www.chartjs.org/",
         description: "JS Graphiques",
-        img: "./img/chartsJS.png"
+        img: "./img/chartsJS.png",
+        category: "JS"
     },
     {
         site: "ThreeJS",
         url: "https://threejs.org/",
         description: "JS 3D Librairie",
-        img: "./img/threeJS.png"
+        img: "./img/threeJS.png",
+        category: "JS"
     },
     {
         site: "Slick",
         url: "https://kenwheeler.github.io/slick/",
         description: "JS Caroussel",
-        img: "./img/slick.png"
+        img: "./img/slick.png",
+        category: "JS"
     },
     {
         site: "Cleave.JS",
         url: "https://nosir.github.io/cleave.js/",
         description: "Formatez votre contenu <input/>",
-        img: "./img/cleaveJS.png"
+        img: "./img/cleaveJS.png",
+        category: "JS"
     },
     {
         site: "ReqBin",
         url: "https://reqbin.com/",
         description: "Online REST / SOAP API testing - JS - Python - PHP - JSON - XML - Curl",
-        img: "./img/reqbin.png"
+        img: "./img/reqbin.png",
+        category: "API"
     },
     {
         site: "Readme",
         url: "https://readme.so/",
         description: "Créer un .Readme pour GitHub",
-        img: "./img/readme.png"
+        img: "./img/readme.png",
+        category: "Github"
     },
     {
         site: "Chirr App",
         url: "https://getchirrapp.com/",
         description: "Ecrire des Threads Twitter",
-        img: "./img/chirrApp.png"
+        img: "./img/chirrApp.png",
+        category: "Twitter"
     },
     {
         site: "Carbon",
         url: "https://carbon.now.sh/",
         description: "Partager des images de votre code source",
-        img: "./img/carbon.png"
+        img: "./img/carbon.png",
+        category: "Marketing"
     },
     {
         site: "UI Buttons",
         url: "https://ui-buttons.web.app/",
         description: "Buttons HTML-CSS",
-        img: "./img/UIButtons.png"
+        img: "./img/UIButtons.png",
+        category: "CSS"
     },
     {
         site: "CodeWars",
         url: "https://www.codewars.com/dashboard",
         description: "Entrainement language dev",
-        img: "./img/codewars.png"
+        img: "./img/codewars.png",
+        category: "Formations"
     },
     {
         site: "CodeinGame",
         url: "https://www.codingame.com/home",
         description: "Entrainement language dev",
-        img: "./img/codeingame.png"
+        img: "./img/codeingame.png",
+        category: "Formations"
     },
     {
         site: "FlowCV",
         url: "https://app.flowcv.com/",
         description: "Créer CV",
-        img: "./img/flowcv.png"
+        img: "./img/flowcv.png",
+        category: "CV"
     },
     {
         site: "Daily Dev",
         url: "https://app.daily.dev/",
         description: "veille technologique dev",
-        img: "./img/dailydev.png"
+        img: "./img/dailydev.png",
+        category: "Veille"
     },
     {
         site: "Polychroma",
         url: "https://polychroma.app/",
         description: "Gradiant color",
-        img: "./img/polychroma.png"
+        img: "./img/polychroma.png",
+        category: "CSS"
     },
     {
         site: "Comparium",
         url: "https://front.comparium.app/",
         description: "Test URL front-End",
-        img: "./img/comparium.png"
+        img: "./img/comparium.png",
+        category: "Design"
     }
 ]

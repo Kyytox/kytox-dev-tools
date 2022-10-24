@@ -1,28 +1,39 @@
 import { useState } from 'react'
-import { Tools, } from '../tools';
+import TextField from "@mui/material/TextField";
+import ListTools from './listTools';
+import ListCategory from './listCategory';
 import './App.css'
 
 function App() {
 
-  console.log(Tools)
-  const sortlistTools = Tools.sort(()=> Math.random() - 0.5);
-  console.log(sortlistTools)
-  const listTools = sortlistTools.map((item) => 
-    <div className='box'>
-      <a href={item.url} target="_blank" rel="noopener noreferrer">
-        <img src={item.img}></img>      
-        <div class="overlay">
-          <p>{item.site}</p>
-          <p>{item.description}</p>
-        </div>
-      </a>
-    </div>
-);
+  const [inputText, setInputText] = useState("");
+
+  let inputHandler = (e) => {
+    //convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+    console.log(inputText)
+  };
+
 
   return (
     <div className="App">
-      <div className='list-tools'>
-        {listTools}
+      <ListCategory></ListCategory>
+      <div className='main'> 
+        <div className="search">
+          <TextField
+            id="outlined-basic"
+            onChange={inputHandler}
+            variant="outlined"
+            fullWidth
+            label="Search"
+          />
+        </div>
+        <div className='list-tools'>
+          <ListTools
+            inputText={inputText}
+          ></ListTools>
+        </div>
       </div>
     </div>
   )
